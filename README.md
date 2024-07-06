@@ -38,3 +38,52 @@ Chatbot: Goodbye! Have a great day!
 
 You can easily customize the chatbot by adding more patterns and responses in the `chatbot_response` function. This allows you to expand the chatbot's capabilities and handle a wider range of queries.
 
+
+Sure, here’s a summary for your Tic-Tac-Toe AI project that you can include in your `README.md` file on GitHub:
+
+---
+
+# Tic-Tac-Toe AI
+
+## Overview
+
+This project involves the creation of an unbeatable AI agent to play the classic game of Tic-Tac-Toe. The AI uses the Minimax algorithm with Alpha-Beta Pruning to ensure optimal gameplay, providing a challenging opponent for human players.
+
+## Features
+
+- **Unbeatable AI**: The AI employs the Minimax algorithm with Alpha-Beta Pruning, making it impossible for human players to win.
+- **Interactive Gameplay**: The game can be played in the terminal, where the user plays against the AI.
+- **Game Board Display**: The current state of the game board is displayed after each move.
+- **User-Friendly Input**: Players input their moves using row and column indices.
+
+## How It Works
+
+1. **Game Initialization**: The game board is initialized, and the AI and human player are assigned their respective symbols ('X' and 'O').
+2. **Player Move**: The human player inputs their move, specifying the row and column indices.
+3. **AI Move**: The AI calculates the optimal move using the Minimax algorithm with Alpha-Beta Pruning.
+4. **Game State Update**: The game board is updated with the moves of both players.
+5. **Win/Draw Check**: After each move, the game checks for a win or a draw.
+6. **Game Continuation**: The game continues until a player wins or the board is full, resulting in a draw.
+   
+## Setup and Usage
+
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/your-username/tic-tac-toe-ai.git
+   cd tic-tac-toe-ai
+   ```
+
+2. **Run the Game**:
+   ```sh
+   python tic_tac_toe.py
+   ```
+
+3. **Play the Game**: Follow the prompts to play against the AI.
+
+## Customization
+
+You can customize the game by modifying the `tic_tac_toe.py` script. You can adjust the AI's difficulty, change the symbols used, or add new features.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests with improvements or additional features.
